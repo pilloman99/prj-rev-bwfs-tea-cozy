@@ -1,0 +1,137 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+span{
+    text-decoration: underline;
+    justify-content: space-around;
+}
+
+h4  {
+  color: seashell;
+}
+
+.imghead{
+  height: 50px;
+  margin-left: 10px;
+  margin: 9px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: row;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  color: seashell;
+}
+
+.menu{
+  width: 500px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.container{
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.center{
+  color: seashell;
+  background-color: black;
+  width: 1000px;
+  flex-direction: column ;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+.images{
+  width:300px;
+  height: 200px;
+}
+
+.main{
+  width: 960px;
+  height: 550px;
+  flex-wrap: wrap;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.imgfal{
+  flex-direction: column;
+}
+
+.location{
+  display: inline-flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lasloc{
+  display: inline;
+  color: seashell;
+  align-content: : center;
+  margin-top: 50px
+}
+
+.mini{
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.lochild {
+  color: seashell;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  flex-direction: column ;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.lbox{
+  align-items: center;
+  flex-direction: column;
+  color: seashell;
+  height: 200px;
+  justify-content: space-between;
+}
+
+.footer{
+  margin-left: 20px;
+  flex-direction: row-reverse;
+  color: seashell;
+  text-align: left;
+
+}
+
+#child  {
+  color: seashell;
+  background-color: black;
+  width: 1200px;;
+  flex-direction: column ;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
